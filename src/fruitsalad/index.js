@@ -225,7 +225,7 @@ module.exports = class FruitSalat
 
   stop()
   {
-    console.log("Stop Fruit Salad")
+    // console.log("Stop Fruit Salad")
     this.running = false;
     clearInterval(this.renderInterval)
     clearInterval(this.speedInterval);
@@ -263,7 +263,7 @@ module.exports = class FruitSalat
     //Smashed healty fruit!!
     if(this.healthyFruitsId.includes(this.playfield[row][cell].id))
     {
-      console.log("Noo! Smashed Healty Fruit!")
+      // console.log("Noo! Smashed Healty Fruit!")
       this.score.fruitsSmashed++;
       this.score.points -= 10;
     }
@@ -271,7 +271,7 @@ module.exports = class FruitSalat
     //Smashed Tomato
     if(this.playfield[row][cell].id === gameConsts.fruits.frTomato.id)
     {
-      console.log("Yeah! Tomate smashed!")
+      // console.log("Yeah! Tomate smashed!")
       this.score.tomatoesSmashed++;
 
       this.score.points += 10;
@@ -279,7 +279,7 @@ module.exports = class FruitSalat
 
     if(this.playfield[row][cell].id === gameConsts.fruits.frNone.id)
     {
-      console.log("Missed everything");
+      // console.log("Missed everything");
 
       this.score.points -= 5;
     }

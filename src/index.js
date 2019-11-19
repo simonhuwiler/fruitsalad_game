@@ -1,5 +1,6 @@
 const RoccatVulcan = require('roccatvulcan');
 const FruitSalat = require('./fruitsalad')
+var readline = require('readline');
 
 
 //Init Fruit Salad Game
@@ -12,7 +13,16 @@ var keyboard = new RoccatVulcan({
     if(data.state === 0)
       return
 
-    game.keyPress(data.key)
+    game.keyPress(data.key);
+    
+    var score = game.getScore();
+
+    readline.cursorTo(process.stdout, 0, 0)
+    readline.clearScreenDown(process.stdout)
+
+    process.stdout.write(`Points:                ${score.points}\n`);
+    process.stdout.write(`Tomatoes smashed:      ${score.tomatoesSmashed}\n`);
+    process.stdout.write(`Healthy fruits KILLED: ${score.fruitsSmashed}\n`);
   },
   ready: () => {
     console.log("ready")
@@ -25,5 +35,13 @@ var keyboard = new RoccatVulcan({
 
     //Start continuous rendering
     keyboard.renderStart(50);
+
+    //Start Game
+    game.start();
+    
+    readline.cursorTo(process.stdout, 0, 0)
+    readline.clearScreenDown(process.stdout)
+    process.stdout.write("GAME STARTED! LETS SMASH!");
+
   }
 });
