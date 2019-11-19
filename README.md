@@ -16,6 +16,6 @@ Healthy fruit will appear on your keyboard. But be aware of the tomatoes, they a
 This Game was developed for the interactive data visualisation **WASD - The Rise of eSports**. More infos: https://github.com/simonhuwiler/dataviz_keyboard  
 **In Action**  
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=D0B6WE92s6I
-" target="_blank"><img src="http://img.youtube.com/vi/D0B6WE92s6I/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=fifkWMU1qL0
+" target="_blank"><img src="http://img.youtube.com/vi/fifkWMU1qL0/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
