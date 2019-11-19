@@ -1,0 +1,26 @@
+{
+  "name": "fruitsalad_game",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonhuwiler/fruitsalad_game.git"
+  },
+  "author": "Simon Huwiler <webmaster@simonhuwiler.ch> (https://www.journalist.sh)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonhuwiler/fruitsalad_game/issues"
+  },
+  "homepage": "https://github.com/simonhuwiler/fruitsalad_game#readme",
+  "dependencies": {
+    "roccatvulcan": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
