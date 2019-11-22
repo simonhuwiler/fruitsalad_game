@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/simonhuwiler/fruitsalad_game#readme",
   "dependencies": {
-    "roccatvulcan": "^0.1.3"
+    "roccatvulcan": "^0.1.4"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
